@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анастасия Максимова — Фотограф</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+    
+<header>
+    <nav>
+        <p>Анастасия Максимова</p>
+        <div class="nav-links" id="navLinks">
+            <a href="#home" data-page="home">Главная</a>
+            <a href="#Portfolio" data-page="Portfolio">Портфолио</a>
+            <a href="#Services" data-page="Services">Услуги</a>
+            <a href="#contact" data-page="contact">Контакты</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+        <!-- Приветственный блок -->
+        <section id="home" class="page active">
+            <div class="page-wrapper">
+                <h1>Профессиональная фотосъёмка</h1>
+                <div class="foto-pr">
+                    <img src="images/hero-bg.jpg" alt="Фото от Анастасии Максимовой" class="foto">
+                </div>
+                <p>Ловлю моменты, создаю воспоминания</p>
+            </div>
+            <a href="#contact" data-page="contact">Связаться со мной</a>
+        </section>
+
+        <!-- Портфолио -->
+        <section id="Portfolio" class="page">
+            <div class="page-wrapper">
+                <h2>Мои работы</h2>
+                <div class="gallery">
+                    <img src="images/portfolio1.jpg" alt="Свадебная съёмка">
+                    <p>Свадебная сьёмка</p>
+                    <img src="images/portfolio2.jpg" alt="Портрет">
+                    <p>Портрет</p>
+                    <img src="images/portfolio3.jpg" alt="Пейзаж">
+                    <p>Пейзаж</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section id="Services" class="page">
+            <div class="page-wrapper">
+                <h2>Услуги и цены</h2>
+                <div class="card">
+                    <div class="cards">
+                        <span>👰</span>
+                        <h3>Свадебная съёмка</h3>
+                        <p>Профессиональная фото- и видеосъёмка вашего самого важного дня — от сборов до первого танца. Запечатлю эмоции, детали и атмосферу так, будто вы снова переживаете этот момент.</p>
+                        <p><strong>от 35 000 ₽</strong></p>
+                    </div>
+
+                    <div class="cards">
+                        <span>📸</span>
+                        <h3>Портретная съёмка</h3>
+                        <p>Индивидуальные или парные портреты в студии или на локации. Подчеркну вашу индивидуальность, помогу раскрыться перед камерой и создать образ, который будет радовать годами.</p>
+                        <p><strong>от 8 000 ₽</strong></p>
+                    </div>
+
+                    <div class="cards">
+                        <span>👨‍👩‍👧‍👦</span>
+                        <h3>Семейная фотосессия</h3>
+                        <p>Тёплые, живые кадры вашей семьи — в парке, дома или на природе. Без позирования, с настоящими улыбками и объятиями. Идеально для альбома или подарка близким.</p>
+                        <p><strong>от 12 000 ₽</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contact" class="page">
+            <div class="page-wrapper">
+                <h1>Связаться со мной</h1>
+                <h2>Контактная информация</h2>
+                <p>📞 Телефон: +7 (999) 123-45-67</p>
+                <p>✉️ Email: anastasia.maksimova.photo@gmail.com</p>
+                <p>💬 Telegram: @anastasia_photo</p>
+                <p>📍 Адрес: г. Москва, ул. Тверская, д. 10</p>
+
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                    <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+                    <textarea id="message" name="message" placeholder="Ваше сообщение"></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>© 2025 Анастасия Максимова. Все права защищены.</p>
+        <p>
+            <a href="https://vk.com/maximovafoto" target="_blank" rel="noopener">VK</a> | 
+            <a href="https://t.me/anastasia_photo" target="_blank" rel="noopener">Telegram</a>
+        </p>
+        <br>
+        <p><a href="#home">Наверх</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
